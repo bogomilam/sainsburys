@@ -1,0 +1,218 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="description" content="The HTML5 Project Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Bogo's Sainsburys</title>
+
+  <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body class="body-grid">
+
+    <header class="header-container">
+        <nav>
+            <section class="top-nav">
+                <ul class="help-center">
+                    <li class="help-center-li"><a href="https://www.sainsburys.co.uk/">Explore more at Sainsburys</a></li>
+                    <li class="help-center-li"><a href="https://help.sainsburys.co.uk/help/?_ga=2.59049326.2102875138.1602063092-961066452.1602063092">Help Center</a></li>
+                    <li class="help-center-li"><a href="https://stores.sainsburys.co.uk/">Store Locator</a></li>
+                </ul>
+                
+                <ul class="top-right-header" id="cart-login">
+                    <li><img class="cart-logo" src="data:image/png;base64,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"/></li>
+                    <li><a  href="" class="drop-down-btn">Log in/Register</a></li>
+                </ul>
+            </section>
+
+            <section class="middle-nav">
+                <ul>
+                    <li><img src="https://www.sainsburys.co.uk/assets/images/logos_logoImage_1nbcJjQWzwCfjeHzgVaBn5_Sainsburys_BHM_Logo_RGB.svg" class="sainos-logo"/></li>
+                    <li><a href="https://www.sainsburys.co.uk/webapp/wcs/stores/servlet/gb/groceries?storeId=10151&langId=44&krypto=jvbzfXqADwbnsLs%2Fnyia7mfF6HhlpgXgTRcXaj63HFEFG6LHac1wGFT54RuBa4ojeQi0EehIfQMEPgCXskO5QpseMhMceDS444ZiigmJAiLNR%2Fo%2FBsYaLq61jg9pd2D6BddPL1pNpscXnKo2yIxlpWUDNOtfkQO0FPeix4wubWs%3D&ddkey=https%3Agb%2Fgroceries" class="see-all-items">Search a list of items</a></li>
+                </ul>
+            </section>
+
+            <section class="bottom-nav">
+            
+                    <ul class=menu-tabs">
+                        <li class="dropdown">
+                            <button class="drop-down-btn">Groceries</button>
+                                <div class="dropdown-content">
+                                    <a href="https://www.sainsburys.co.uk/shop/gb/groceries/Christmas?fromMegaNav=1">Christmas</a>
+                                    <a href="https://www.sainsburys.co.uk/shop/gb/groceries/halloween--?fromMegaNav=1">Halloween</a>
+                                </div>
+                        </li>
+
+                        <li class="menu-link">
+                            <a href="https://www.sainsburys.co.uk/gol-ui/favourites-as-list">Favourites</a>
+                        </li>
+
+                        <li class="dropdown">
+                            <button class="drop-down-btn">Offers</button>
+                                <div class="dropdown-content">
+                                    <a href="https://www.sainsburys.co.uk/shop/gb/groceries">Food Cupboard</a>
+                                    <a href="https://www.sainsburys.co.uk/shop/gb/groceries/halloween--?fromMegaNav=1">HouseHold Essentials</a>
+                                </div>
+                        </li>
+        
+                        <li><a class="menu-link" href="https://www.sainsburys.co.uk/webapp/wcs/stores/servlet/gb/groceries/discover?storeId=10151&langId=44&krypto=CScoT5zJqjeqSmblavSrTNy%2F1AbjZRtSAow1wXVIACPddzJlNYtA6qkpmRuBF8UBNl8m%2BIv3f4HCQ0yGVVZ5CzuqH7GVskigd9IWdDlp50t4oDQBOjvPY9%2BxmWR7wY5U&ddkey=https%3Agb%2Fgroceries%2Fdiscover" >Discover</a></li>
+                        <li><a class="menu-link" href="https://recipes.sainsburys.co.uk/?_ga=2.54182312.1669384482.1602235230-1251052683.1602063153" >Recipes</a></li>
+                        <li><a class="menu-link" href="https://www.sainsburys.co.uk/shop/gb/saver?_ga=2.223585691.1669384482.1602235230-1251052683.1602063153" >Delivery Pass</a></li>
+
+                    </ul>
+
+                    <form class="search-box" action="">
+                        <label for="search">Search</label>
+                            <input type="text" aria-label="Type in a product for search" placeholder="Search products" required minlength="4" maxlength="32" size="10">
+                            <input type="submit" value="Search" >
+                    </form>
+            </section>
+            
+        </nav>
+    </header>
+
+    <main class="main-body-container">
+
+
+        <section class="view-nav-wrapper">
+
+            <h1 class="selected-tab-title">BBQ(x products available)</h1>
+        
+            <section class="selected-tabs">
+                <ul>
+                    <li><a class="tab-btn" href="https://www.sainsburys.co.uk/shop/gb/groceries/meat-fish?fromMegaNav=1" >Meat & Fish</a></li>
+                    <li><a class="tab-btn" href="https://www.sainsburys.co.uk/shop/gb/groceries/meat-fish/bbq" >BBQ</a></li>
+                </ul>
+            </section>
+
+
+
+            <!-- add lis -->
+            <section>
+                <ul class="view-btns">
+                    <li><button class="filter-results-btn">Filter your list</button></li>
+                    <li><button class="clear-filter-btn">Clear filter</button></li>
+                </ul>
+            </section>
+
+            <section class="view-options">
+                <ul class="list-of-viewing-options">
+                    <!-- nest inside another list -->
+                    <li><button class="grid-view-btn">Grid</button></li>
+                    <li><button class="grid-view-btn">List</button></li>
+                    
+                    <li><label for="sort">Sort by:</label></li>
+                        <select name="sort" id="sort-results">
+                            <option value="favourites">Favourites</option>
+                            <option value="not-favourties">Not so favourite</option>
+                        </select>
+                    
+                    <li><label for="per-page">Per page:</label></li>
+                    <li><select name="per-page" id="per-page"></li>
+                            <option value="120">120</option>
+                            <option value="240">240</option>
+                        </select>
+                </ul>
+                
+                <ul class="pages-btns">
+                    <li><button>1</button></li>
+                    <li><button>2</button></li>
+                    <li><button>></button></li>
+                </ul>
+            </section>
+        </section>
+
+        <section class="customer-sec">
+            <ul class="customer-auth"></ul>
+                <li><h1>Already a customer?</h1></li>
+                <li><a href="https://www.sainsburys.co.uk/#login" class="drop-down-btn">Log in</a></li>
+                <li><text>Not yet registered?</text> <a href="https://www.sainsburys.co.uk/shop/LogonView/Identifier?catalogId=10241&langId=44&storeId=10151&URL=http%3A%2F%2Fwww.sainsburys.co.uk%2Fshop%2FCategoryDisplay%3FcatalogId%3D10241%26level%3D1%26beginIndex%3D0%26top_category%3D355372%26pageSize%3D60%26storeId%3D10151%26langId%3D44%26parent_category_rn%3D355372%26categoryId%3D494365">Register Now</a></li>
+                <li><h2>New customer?</h2></li>
+                <li><text>Enter your postcode to check we deliver in your area.</text></li>
+                <li><textarea placeholder="Search for a postcode"></textarea></li>
+                <li><a href="" class="drop-down-btn">Check postcode</a></li>
+                <li><h2>My dietary profile</h2></li>
+                <li><text>Create a dietary profile for you or anyone you're shopping for and we'll flag any products we don't think are suitable for you as you shop.</text></li>
+                <li><a href="" class=drop-down-btn"></a></li>
+                <li><h3>Important Information</h3></li>
+                <li>Alcohol pricing & promotions for customers served from our Scottish & Welsh stores may differ from those shown when browsing our site. Please log in to see the full range of alcohol prices & promotions available to you.</li>
+            </ul>
+        </section>
+
+            <!-- seperate main with sections -->
+        <section class="products-results-container">
+            <ul class="product-items-list">
+
+                <li class="angus-container">
+                    <!-- always alt tag -->
+                    <img class="offer-badge" src="./offer-logo.jpeg" />
+                    <img class="product-image" src="./burgers.jpeg"/>
+                    <dl>
+                        <dt>Product NAme </dt> 
+                            <dd>Burgers</dd>
+                        <dt>Product Price</dt>
+                            <dd>340g</dd>
+                        <dt class="product-name">Angus Burger</dt>
+                        <dd class="product-weight">Sainsburys burgers 2 x 340g</dd>
+                        <dd class="saving-offer">Save 25p</dt>
+                    </dl>
+                    <h2 class="price-of-product">£2.25/unit</h2>
+                    <h3 class="price-per-kg">£6.62/kg</h3>
+                    <a href="" class="drop-down-btn">Add</a>
+                </li>
+
+                <li class="sausage-container">
+                    <img class="offer-badge" src="./offer-logo.jpeg"/>
+                    <img class="product-image" src="./sausage.jpeg"/>
+                    <dl>
+                        <dt class="product-name">Bramley Apple Sausage</dt>
+                        <dd class="product-weight">Sainsburys sausages x 8</dd>
+                        <dd class="saving-offer">Save 5p</dt>
+                    </dl>
+                    <h2 class="price-of-product">£3.75/unit</h2>
+                    <h3 class="price-per-kg">£9.62/kg</h3>
+                    <a href="" class="drop-down-btn">Add</a>
+                </li>      
+                
+                <li class="angus-container">
+                    <!-- always alt tag -->
+                    <img class="offer-badge" src="./offer-logo.jpeg" />
+                    <img class="product-image" src="./burgers.jpeg"/>
+                    <dl>
+                        <dt>Product NAme </dt> 
+                            <dd>Burgers</dd>
+                        <dt>Product Price</dt>
+                            <dd>340g</dd>
+                        <dt class="product-name">Angus Burger</dt>
+                        <dd class="product-weight">Sainsburys burgers 2 x 340g</dd>
+                        <dd class="saving-offer">Save 25p</dt>
+                    </dl>
+                    <h2 class="price-of-product">£2.25/unit</h2>
+                    <h3 class="price-per-kg">£6.62/kg</h3>
+                    <a href="" class="drop-down-btn">Add</a>
+                </li>
+
+                <li class="sausage-container">
+                    <img class="offer-badge" src="./offer-logo.jpeg"/>
+                    <img class="product-image" src="./sausage.jpeg"/>
+                    <dl>
+                        <dt class="product-name">Bramley Apple Sausage</dt>
+                        <dd class="product-weight">Sainsburys sausages x 8</dd>
+                        <dd class="saving-offer">Save 5p</dt>
+                    </dl>
+                    <h2 class="price-of-product">£3.75/unit</h2>
+                    <h3 class="price-per-kg">£9.62/kg</h3>
+                    <a href="" class="drop-down-btn">Add</a>
+                </li>               
+            </ul>
+
+        </section>
+    </main>
+
+</body>
+
+</html>

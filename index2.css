@@ -1,0 +1,165 @@
+html {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.header-container li {
+    /* list-style-type: none; */
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+section {
+    width: 100%
+}
+
+section ul li {
+    display: inline-block;
+}
+
+
+.help-center li {
+    margin: 1em;
+    font-size: xx-small;
+    grid-column: auto;
+    /* grid-template-columns: 1 fr 4fr 1fr 1 fr; */
+    /* grid-template-columns: 2; */
+    display: inline-flex;
+    /* padding: 0; */
+}
+
+.top-right-header {
+    font-size: xx-small;
+    /* grid-column: 4; */
+    display: inline;
+    /* display: table-column-group; */
+    list-style-type: none;
+    
+}
+
+.top-right-header li {
+    float: right;
+    display: inline-flex;
+}
+
+.middle-nav ul {
+    list-style-type: none;
+}
+
+.middle-nav ul li img .sainos-logo {
+    height: 3rem;
+    width: 8rem;
+    float: left;
+}
+
+.middle-nav .see-all-items {
+    font-size: xx-small;
+    float: right;
+}
+
+.cart-logo {
+    height: 3rem;
+    width: 7rem;
+}
+
+.bottom-nav {
+    position: absolute;
+    /* bottom: 10px; */
+    /* display: list-item; */
+}
+
+.bottom-nav .search-box {
+    float: right;
+}
+
+
+#cart-login {
+    float:right;
+}
+
+.search-box {
+    display:block;
+}
+
+.menu-tabs li {
+    list-style-type: none;
+}
+
+.bottom-nav .menu-tabs .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .main-body-container {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-column-gap: 1em;
+    grid-row: 20;
+  }
+
+  .selected-tabs {
+      position: absolute;
+      top: 29%;
+      /* grid-row: 10; */
+  }
+
+
+
+  .selected-tab-title {
+    position: absolute;
+    top: 30%;
+  
+  }
+
+  .filter-box {
+    position: absolute;
+    top: 33%;
+    width:300px;
+  }
+
+.drop-down-btn {
+    background-color: lightcoral;
+    color: white;
+    padding: 16px;
+    font-size: 12px;
+    border: none;
+    width: 6rem;
+    height: 1rem;
+  }
+
+  .tab-btn {
+    background-color: rgb(209, 209, 209);
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 12px;
+    border: none;
+    width: 9rem;
+    height: 1rem;
+  }
+
+
+ .dropdown-content  {
+    display: none;
+    position: absolute;
+    background-color: #eebd9c;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+ .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {background-color: orange;}
+  .dropdown:hover .dropdown-content {display : block;}
+  .dropdown:hover .drop-down-btn {background-color: orangered;}
+
+  .dropdown-content a:hover {background-color: orange;}
